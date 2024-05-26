@@ -24,8 +24,8 @@ public class Chrome {
 		driver.findElement(By.xpath("html/body/div[1]/div[3]/form/div[1]/div[1]/div[4]/center/input[1]")).click();
 		
 		driver.findElement(By.linkText("Prof Tapas Mallick | Renewable Energy - University of Exeter")).click();
-//		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-//		driver.close();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.close();
 		}
 
 }
